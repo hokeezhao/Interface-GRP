@@ -25,7 +25,7 @@ public class ledControl extends ActionBarActivity {
 
     Button ledOn, ledOff,fanOn,fanOff,fanInc,fanDec,airCndOn,airCndOff,airCndInc,airCndDec,btnDis;
     TextView lumn;
-    String address = null;
+    String address = "Test";
     private ProgressDialog progress;
     BluetoothAdapter myBluetooth = null;
     BluetoothSocket btSocket = null;
